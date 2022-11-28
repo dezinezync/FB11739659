@@ -16,7 +16,7 @@ struct FocusItem: Identifiable, Hashable, Equatable, Codable, @unchecked Sendabl
 @available(iOS 16.0, *)
 extension FocusItem: AppEntity {
   static var typeDisplayRepresentation: TypeDisplayRepresentation {
-    TypeDisplayRepresentation(stringLiteral: "FocusItem")
+    "FocusItem"
   }
   
   static var typeDisplayName: LocalizedStringResource = "FocusItem"
