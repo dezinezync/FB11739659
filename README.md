@@ -3,6 +3,10 @@
 - Issue: iOS 16.x does not correctly load App Intents extension when building with Xcode 14.1 RC2
 ---
 
+[@nickromano](https://github.com/nickromano) has traced the issue and a fix for it: https://github.com/dezinezync/FB11739659/pull/1
+
+---
+
 When building an app with an App Intents extension with Xcode 14.1 RC 2 (21534.1), iOS 16.0 and 16.1 fail to load the intents extension. 
 
 The same is observed when the App Intents are directly used as part for the main iOS app target.  
